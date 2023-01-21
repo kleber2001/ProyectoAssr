@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.set('strictQuery', false)
+mongoose.set('strictQuery', true)
 mongoose.connect('mongodb+srv://kgnunez:SKnnyIIB6dpLvqnG@cluster0.kesacsi.mongodb.net/test', {
     useNewUrlParser: true,
 },
