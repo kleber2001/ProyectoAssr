@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://127.0.0.1:27017/connection_ssh', {
+mongoose.connect('mongodb+srv://kgnunez:SKnnyIIB6dpLvqnG@cluster0.kesacsi.mongodb.net/test', {
     useNewUrlParser: true,
 },
 (err) => {
