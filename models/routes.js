@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose.set('strictQuery', true)
-mongoose.connect('mongodb+srv://kgnunez:SKnnyIIB6dpLvqnG@cluster0.kesacsi.mongodb.net/connection_ssh', {
+mongoose.connect('mongodb+srv://kgnunez:9yrAHTDOLmFyaYmY@cluster0.kesacsi.mongodb.net/connection_ssh?retryWrites=true&w=majority', {
     useNewUrlParser: true,
 },
 (err) => {
