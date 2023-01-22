@@ -1,13 +1,13 @@
 import pymongo
 
-MONGO_HOST= "127.0.0.1"
-MONGO_PUERTO= "27017"
+MONGO_USERNAME= "kgnunez"
+PASSWORD= "9yrAHTDOLmFyaYmY"
 MONGO_TIEMPO_FUERA= 1000
-
-MONGO_URL="mongodb://"+MONGO_HOST+":"+MONGO_PUERTO+"/"
-
 MONGO_BASEDATOS= "connection_ssh"
 MONGO_COLECCION= "routes"
+
+MONGO_URL="mongodb+srv://"+MONGO_USERNAME+":"+PASSWORD+"@cluster0.kesacsi.mongodb.net/"+MONGO_BASEDATOS+"?retryWrites=true&w=majority"
+
 
 try:
     cliente=pymongo.MongoClient(MONGO_URL,serverSelectionTimeoutMS=MONGO_TIEMPO_FUERA)
