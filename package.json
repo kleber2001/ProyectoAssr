@@ -16,6 +16,8 @@
     "handlebars": "^4.7.7",
     "mongoose": "^6.8.0",
     "path": "^0.12.7",
-    "render": "^0.1.4"
-  }
+    "render": "^0.1.4",
+    "yarn": "^1.22.19"
+  },
+  "repository": "https://github.com/kleber2001/ProyectoAssr.git"
 }
